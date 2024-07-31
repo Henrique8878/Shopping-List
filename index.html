@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header class="container">
+        <div class="flex py-md" id="title">
+            <img src="./assets/simbolo.png" alt="" srcset="" class="flex">
+            <h1 class="flex">quicklist</h1>
+        </div>
+        <div>
+            <img src="./assets/arrow.svg" alt="" srcset="">
+            <span>Voltar</span>
+        </div>
+        <div class="py-md"><h1>Compras da semana</h1></div>
+    </header>
+
+    <main class="container margin">
+        <div class="display-block">
+            <input type="text" name="" id="inp_add" placeholder="Adicione um novo item" class="py-px-input">
+            <button class="py-px-btn" id="btnAdd">Adicionar item</button>
+        </div>
+        
+        <section class="py-md" id="sectionList">
+            <article class="py-px-li">
+                <div>
+                    <input type="checkbox" name="" id="" class="inp_checkbox">
+                    <p>Pão de forma</p>
+                </div>
+                <img src="./assets/trash.png" alt="" srcset="" class="imgTrash">
+            </article>
+
+            <article class="py-px-li">
+                <div>
+                    <input type="checkbox" name="" id="" class="inp_checkbox">
+                    <p>Café preto</p>
+                </div>
+                <img src="./assets/trash.png" alt="" srcset="" class="imgTrash">
+            </article>
+
+            <article class="py-px-li">
+                <div>
+                    <input type="checkbox" name="" id="" class="inp_checkbox">
+                    <p>Suco de laranja</p>
+                </div>
+                <img src="./assets/trash.png" alt="" srcset="" class="imgTrash">
+            </article>
+
+            <article class="py-px-li">
+                <div>
+                    <input type="checkbox" name="" id="" class="inp_checkbox">
+                    <p>Bolacha</p>
+                </div>
+                <img src="./assets/trash.png" alt="" srcset="" class="imgTrash">
+            </article>
+
+        </section>
+
+        <footer class="py-px-li">
+            <div>
+                <img src="./assets/danger.png" alt="">
+                <p>O item foi removido da lista</p>
+            </div>
+            <div>
+                <img src="./assets/delete.png" alt="" class="btnFooter">
+            </div>
+        </footer>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

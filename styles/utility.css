@@ -1,0 +1,45 @@
+.py-sm{
+    padding-block: 1.56rem;
+}
+
+.py-md{
+    padding-block: 2.125rem;
+}
+
+.py-lg{
+    padding-block: 2.5rem;
+}
+
+.py-px-input{
+    padding: 0.5rem;
+}
+
+.py-px-btn{
+    padding: .5rem;
+}
+
+.py-px-li{
+    padding: 0.75rem;
+}
+
+
+
+.container{
+    --max-width:390px;
+    max-width: var(--max-width);
+    width: calc(100% - (var(--pw-sm))*2);
+    margin-inline: auto;
+    
+}
+
+@media(width>=79.18rem){
+    .container{
+        --max-width:1267px;
+        max-width: var(--max-width);
+        width: calc(100% - (var(--pw-lg))*2);
+    }
+
+    .py-md{
+        padding-block: 2.5rem;
+    }
+}

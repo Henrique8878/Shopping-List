@@ -1,0 +1,21 @@
+footer{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .5rem;
+    height: 2.75rem;
+    background-color: var(--color-danger);
+    color: white;
+}
+
+footer img{
+    width: 1rem;
+    height: 1rem;
+   cursor: pointer;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
